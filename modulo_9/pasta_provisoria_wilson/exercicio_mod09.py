@@ -6,6 +6,8 @@ def aula_tratamento_erros():
         resultado = numerador / denominador
 
     except ValueError:
+        print("Erro: Digite apenas números inteiros.")
+    except ZeroDivisionError:
         print("Erro: Não pode dividir por zero.")
     except Exception as erro:
         print(f"Erro inesperado: {erro}")
