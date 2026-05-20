@@ -4,7 +4,6 @@ from datetime import datetime
 fake = Faker('pt_BR')
 
 def gerar_dados():
-
     return {
         "nome": fake.name(),
         "email": fake.email(),
@@ -27,4 +26,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
