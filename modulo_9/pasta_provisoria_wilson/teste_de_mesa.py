@@ -1,3 +1,9 @@
+
+
+meu_celular = Celular("Xiami", "Redmi 12")
+meu_celular.fazer_chamada("Dez")# Teste de erro
+meu_celular.fazer_chamada(10)
+
 class Celular:
     def __init__(self, marca, modelo):
         self.marca = marca
