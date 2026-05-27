@@ -1,3 +1,4 @@
+
 from flask import Flask, jsonify, request
 import pytest
 
@@ -69,4 +70,5 @@ def test_soma_valores_nao_numericos(client):
 def test_soma_json_vazio(client):
     """Testa o envio de uma requisição sem corpo JSON"""
     response = client.post('/soma', data="Não é um JSON")
-    assert response.status_code == 415  # <-- Alterado aqui para 415
+
+f

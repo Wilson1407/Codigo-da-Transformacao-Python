@@ -1,3 +1,4 @@
+
 # Adicione uma busca por nome na listagem de produtos e implemente paginação para melhorar a navegação.
 from django.conf import settings
 from django.core.management import execute_from_command_line
