@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:modulo_01/ead.py
 tarefas = []
 
 while True:
@@ -38,3 +39,13 @@ while True:
 
         else:
             print("Opção Inválida!")
+=======
+
+import datetime
+
+nome = input("Qual é o seu nome?")
+
+hora_atual = datetime.datetime.now().strftime("%H:%M:%S")
+
+print(f"Olá, {nome}! Agora são {hora_atual}. Seja bem-vindo!")
+>>>>>>> Stashed changes:modulo_1/ead.py
